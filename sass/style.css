@@ -123,7 +123,7 @@
 
 .header__section {
   height: 70vh;
-  background-image: url("../../images/bg-image1.png");
+  background-image: url("./images/bg-image1.png");
   background-size: cover;
   background-position: top;
   position: relative;
