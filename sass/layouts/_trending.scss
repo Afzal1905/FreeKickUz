@@ -1,0 +1,101 @@
+.section__trending{
+    z-index: 4;
+    .row{
+        .background-row {
+            position: relative;
+            height: 100%;
+            margin: 0!important;
+            padding: 0!important;
+            img{
+                margin-top: -123px;
+                position: relative;
+                width: 70%;
+                z-index: -6;
+            }
+        }
+    }
+}
+@media (max-width: 1200px){
+    .section__trending{
+        height: 80vh!important;
+        .row{
+            .background-row {
+                position: relative;
+                height: 100%;
+                img{
+                    margin-top: -130px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 900px){
+    .section__trending{
+        height: 90vh!important;
+        .row{
+            .background-row {
+                position: relative;
+                height: 100%;
+                img{
+                    margin-top: -60px;
+                    width: 110%!important;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 600px){
+    .section__trending{
+        height: 90vh!important;
+        .row{
+            .col-1-of-2{
+                width: 80%;
+            }
+            .button{
+                width: 132px;
+                height: 36px;
+                color: white;
+                background-color: #F7004A;
+            }
+            .big--text{
+                font-size: 30;
+                font-weight: 500;
+            }
+            .background-row {
+                position: relative;
+                height: 100%;
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 414px){
+    .section__trending{
+        height: 95vh!important;
+        .row{
+            .col-1-of-2{
+                width: 100%;
+            }
+            .button{
+                width: 132px;
+                height: 36px;
+                color: white;
+                background-color: #F7004A;
+            }
+            .big--text{
+                font-size: 30;
+                font-weight: 500;
+            }
+            .background-row {
+                position: relative;
+                height: 100%;
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+}

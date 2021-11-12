@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section__news{
+    height: 33vh;
+    margin: 0;
+    padding: 0%;
+    position: relative;
+    background-color: #12133D;
+}
+.section__about{
+    position: relative;
+    background-color: #09091E;
+    height: 45vh;
+    padding-top: 4rem;
+    z-index: 10;
+}
+.section__trending{
+    position: relative;
+    background-color: #12133D;
+    height: 50vh;
+    padding-top: 4rem;
+    z-index: 8;
+}
+.section__videos{
+    position: relative;
+    background-color:#09091E;
+    height: 85vh;
+    padding-top: 4rem;
+    z-index: 10;
+}
+.section--footer{
+    position: relative;
+    background-color: #12133D;
+    height: 30vh;
+}
+.footer{
+    position: relative;
+    background-color: #F7004A;
+    height: 15vh;
+}
