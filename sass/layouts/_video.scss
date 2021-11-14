@@ -1,0 +1,103 @@
+.section__videos{
+    .row{
+        .col-1-of-2{
+            .video-card{
+                .video--text{
+                    content: "";
+                    position: relative;
+                    color: white;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+                    
+@media (max-width: 1300px){
+    .section__videos{
+        height: 85vh;
+        .row{
+            .col-1-of-2{
+                .video-card{
+                    .video--text{
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1200px){
+    .section__videos{
+        height: 100vh!important;
+        .row{
+            .col-1-of-2{
+                .video-card{
+                    .video--text{
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 900px){
+    .section__videos{
+        height: 90vh!important;
+        .row{
+            .col-1-of-2{
+                .video-card{
+                    .video--text{
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 600px){
+    .section__videos{
+        height: 70vh!important;
+        .row{
+            .col-1-of-2{
+                .video-card{
+                    .video--text{
+                        font-weight: 400;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 414px){
+    .section__videos{
+        height: 150vh!important;
+        .row{
+            width: 90%!important;
+            .col-1-of-2{
+                display: block!important;
+                float: none!important;
+                margin-bottom: 80px!important;
+                padding: 0%!important;
+                .video-card{
+                    .video{
+                        width: 260%!important;
+                        margin: 0% auto!important;
+                    }
+                    .video--text{
+                        font-weight: 400;
+                        font-size: 16px;
+                        position: absolute;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+

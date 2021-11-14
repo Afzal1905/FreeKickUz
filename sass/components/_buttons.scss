@@ -1,0 +1,49 @@
+.btn{
+    width: 162px;
+    height: 44px;
+    color: white;
+    background-color: #F7004A;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.button{
+    width: 162px;
+    height: 44px;
+    color: white;
+    background-color: #F7004A;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.linee{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+}
+.lines{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+.more--link{
+    color: white;
+                           
+    font-size: 20px;
+}
+.border-line{
+    border: 1px solid red;
+    width: 68px;
+    margin-top: 16px;
+    height: 1px;
+    margin-bottom: 1rem;
+}
+.big--text{
+    display: flex;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 48px ;
+}
